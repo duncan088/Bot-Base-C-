@@ -37,7 +37,7 @@ namespace BotWpf
     internal class BotHandler
     {
         public static string bnbcontrac = "0xae13d989dac2f0debff460ac112a837c89baa7cd";
-       public static string busdcontrac= "0x7ef95a0fee0dd31b22626fa2e10ee6a223f8a684";
+       public static string busdcontrac= "0x78867bbeef44f2326bf8ddd1941a4439382ef2a7";
         public static  string usdtContract= "0x7ef95a0fee0dd31b22626fa2e10ee6a223f8a684";
   
         public static async Task<BigDecimal> TokenValueTask(string token, string bnb)

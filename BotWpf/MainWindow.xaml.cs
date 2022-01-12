@@ -31,12 +31,10 @@ namespace BotWpf
             "https://honeypot.api.rugdoc.io/api/honeypotStatus.js?address={0}&chain=bsc";
 
         public static string bnbcontrac = "0xae13d989dac2f0debff460ac112a837c89baa7cd";
-        public static string busdcontrac = "0xe9e7cea3dedca5984780bafc599bd69add087d56";
+        public static string busdcontrac = "0x78867bbeef44f2326bf8ddd1941a4439382ef2a7";
         public static string usdtContract = "0x7ef95a0fee0dd31b22626fa2e10ee6a223f8a684";
         public static string panacakSwapRouter = "0x9ac64cc6e4415144c455bd8e4837fea55603e5c3";
-       
         public  static string currentRouter = panacakSwapRouter;
-       
         public ObservableCollection<TxResult> resultsBuy = new ObservableCollection<TxResult>();
         public static decimal tokenBalanceD = 0;
         public static decimal bnbBalanceD = 0;
